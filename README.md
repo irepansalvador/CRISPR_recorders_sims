@@ -37,3 +37,11 @@ In the folder it is the "reference tree" used for estimating the accuracy (by
 comparing it to the "inferred tree" with the CompareTree.pl software) is also
 provided.
 
+## GESTALT/
+
+This folder contains the scripts used for characterising the mutational outcome
+of the GESTALT v7 recorder, obtaining the parameters to perform simulations and 
+quantify the accuracy of the GESTALT project.
+
+The GESTALT data was obtained from:
+https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE81713
