@@ -24,8 +24,8 @@ This folder contains the Jupyter notebooks (Python and R) that were used to
 analyse the (already trimmed) sequencing reads to get parameters to be used
 for the simulations (mutational outcomes, mutation rates, etc).
 
-The raw sequencing data is provided in the dryad repository:
-https://datadryad.org/review?doi=doi:10.5061/dryad.qb7r0d3
+The raw sequencing data is provided in the dryad repository (see manuscript
+for details)
 
 ## make_NEXUS/
 
