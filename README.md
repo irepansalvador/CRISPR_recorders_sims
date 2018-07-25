@@ -24,18 +24,24 @@ This folder contains the Jupyter notebooks (Python and R) that were used to
 analyse the (already trimmed) sequencing reads to get parameters to be used
 for the simulations (mutational outcomes, mutation rates, etc).
 
+The raw sequencing data is provided in the dryad repository:
+https://datadryad.org/review?doi=doi:10.5061/dryad.qb7r0d3
+
 ## make_NEXUS/
 
 This folder contains a Perl script used for generating a NEXUS file from the
 MATLAB simulations' output.
-This NEXUS file was then used as input for the PAUP* software, to infer the 
-cell lineage based on the accumulated mutations.
+For each simulation of 65K cells, the script makes 10 random samples of 1,000
+cells. 
 
-More specifically, the scripts adds a "Root" (the unmutated CRISPR recorder)
-to the simulated targets and adds the necessary PAUP blocks to be read by PAUP.
-In the folder it is the "reference tree" used for estimating the accuracy (by 
+The samples of 1000 cells are converted to a NEXUS file used as input for the 
+PAUP* software, to infer the cell lineage based on the accumulated mutations.
+
+More specifically, for each sample, a "root" taxa is added (unmutated recorder)
+to the simulated targets as the necessary PAUP blocks to be read by PAUP.
+In the folder the "reference tree" used for estimating the accuracy (by 
 comparing it to the "inferred tree" with the CompareTree.pl software) is also
-provided.
+provided ("16div_32_targets_60_states_REF.nw)
 
 ## GESTALT/
 
@@ -45,3 +51,11 @@ quantify the accuracy of the GESTALT project.
 
 The GESTALT data was obtained from:
 https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE81713
+
+
+## R_accuracy_heatmap
+
+This folder contains the data and R script for re-creating the accuracy heatmap
+shown in Figure 7C.
+Also in the folder are the two tiff output images from the R script, a heatmap 
+and a levelplot.
