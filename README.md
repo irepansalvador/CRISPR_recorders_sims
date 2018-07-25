@@ -1,5 +1,7 @@
 # CRISPR_recorders_sims
 
+https://doi.org/10.5281/zenodo.1320964
+
 This repository will contain the scripts from the work:
 
 "Is it possible to reconstruct an accurate cell lineage using CRISPR recorders?
