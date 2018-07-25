@@ -12,22 +12,19 @@ stating also to which figure in the manuscript is associated with.
 
 The scripts are contained in the following folders:
 
-## MATLAB_sims/
+### MATLAB_sims/
 
 This folder contains the MATLAB scripts and associated files necessary to
-generate all the simulations described in the manuscript.
+generate all the simulations described in the manuscript (Figures 2-3 and 5-7).
 The scripts were run in MATLAB version 2017a (Linux).
 
-## seq_reads_analysis/
+### seq_reads_analysis/
 
 This folder contains the Jupyter notebooks (Python and R) that were used to
 analyse the (already trimmed) sequencing reads to get parameters to be used
 for the simulations (mutational outcomes, mutation rates, etc).
 
-The raw sequencing data is provided in the dryad repository (see manuscript
-for details)
-
-## make_NEXUS/
+### make_NEXUS/
 
 This folder contains a Perl script used for generating a NEXUS file from the
 MATLAB simulations' output.
@@ -43,17 +40,16 @@ In the folder the "reference tree" used for estimating the accuracy (by
 comparing it to the "inferred tree" with the CompareTree.pl software) is also
 provided ("16div_32_targets_60_states_REF.nw)
 
-## GESTALT/
+### GESTALT/
 
 This folder contains the scripts used for characterising the mutational outcome
 of the GESTALT v7 recorder, obtaining the parameters to perform simulations and 
-quantify the accuracy of the GESTALT project.
+quantify the accuracy of the GESTALT project (Figure 3 and Suppl. Figure 3)
 
 The GESTALT data was obtained from:
 https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE81713
 
-
-## R_accuracy_heatmap
+### R_accuracy_heatmap
 
 This folder contains the data and R script for re-creating the accuracy heatmap
 shown in Figure 7C.
