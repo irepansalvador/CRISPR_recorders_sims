@@ -1,6 +1,7 @@
 # CRISPR_recorders_sims
 
-https://doi.org/10.5281/zenodo.1320964
+[![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.1320791.svg)](http://dx.doi.org/10.5281/zenodo.1320791)
+
 
 This repository will contain the scripts from the work:
 
