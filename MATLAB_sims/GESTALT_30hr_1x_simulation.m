@@ -134,7 +134,7 @@ for r = 1:Nsim                      % TO HAVE MULTIPLE SAMPLES
         for j = 1:Ndaugh
             C_ne = find(A2(j,:)~=A2_old(j,:));
              if length(C_ne) > 1 
-                sort(datasample(C_ne,2,'Replace',false));
+                C_ne = sort(datasample(C_ne,2,'Replace',false));
                 % sum 100 to the targets at the ends (will modify to letters
                 % later)
                 A2(j,C_ne(1)) = A2(j,C_ne(1)) + 100;
